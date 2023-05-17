@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgb(238, 203, 203), rgb(207, 177, 155));
+  background-image: url(../Images/Layout/BG-IMage.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* h1 text style */
+h1 {
+  font-family: 'ModernAntiquaB', sans-serif;
+  font-size: 3em;
+}
+
+/* h2 text style */
+h2 {
+  font-family: 'ModernAntiquaB', sans-serif;
+  font-size: 3em;
+}
+
+/* Style the header */
+.header {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-color: #8b728fe7;
+  background-image: url(../Images/Layout/Headbar.png);
+  width: 100%;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #572c2c;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  font-family: 'ModernAntiquaB', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a {
+  transition: color .3s ease;
+  transition: background-color .5s ease;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgb(202, 179, 233);
+  color: black;
+}
+
+/*Styles footer section*/
+footer {
+  position: fixed;
+  bottom: 0;
+  background-image: linear-gradient(rgba(50, 50, 50, 0.825), rgb(0, 0, 0));
+  width: 100%;
+  font-family: 'ModernAntiquaB', sans-serif;
+  padding-top: 10px;
+  color: #fff;
+  overflow: visible;
+}
+
+/*Styles footer content*/
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+/*Styles footer content header*/
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 100;
+  text-transform: capitalize;
+  line-height: 1rem;
+  margin: 10px auto;
+}
+
+/*Styles footer content paragraph*/
+.footer-content p {
+  max-width: 800px;
+  margin: 10px auto;
+  font-size: 13px;
+  margin: 10px auto;
+}
+
+/*Styles social media section*/
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials li {
+  margin: 0 5px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.socials a i {
+  font-size: 1.2rem;
+  transition: color .4s ease;
+}
+
+.socials a:hover i {
+  color: rgb(111, 0, 255);
+}
+
+.footer-bottom {
+  background: #000;
+  padding: 5px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* custom font placement */
+@font-face {
+  font-family: 'ModernAntiquaB';
+  src: url(../Fonts/ModernAntiqua-Bold.ttf) format('truetype');
+}

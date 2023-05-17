@@ -1,0 +1,58 @@
+main {
+    color: black;
+    margin-bottom: 100px;background: radial-gradient(#e66465, #91e5bf);
+    filter:opacity(80%);
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 100px;
+    padding-bottom: 500px;
+}
+
+p {
+    font-size: 22px;
+}
+
+/*Styles social media section*/
+.socialmain {
+    list-style: none;
+    display: grid;
+    align-items: center;
+  }
+  
+  .socialmain li {
+    margin: 0 5px;
+    font-family: 'ModernAntiquaB', sans-serif;
+    font-size: 25px;
+  }
+  
+  .socialmain a {
+    text-decoration: none;
+    color: #7f6895;
+  }
+  
+  .socialmain a i {
+    font-size: 3.5rem;
+    transition: color .4s ease;
+  }
+  
+  .socialmain a:hover i {
+    color: rgb(111, 0, 255);
+  }
+  
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+     width: 33.33%;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+    
+/* Clear floats after the columns */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}

@@ -1,0 +1,22 @@
+/* Styles the main element */
+main {
+    background: radial-gradient(#e66465, #9198e5);
+    filter:opacity(80%);
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 100px;
+    padding-bottom: 500px;
+}
+
+p {
+  font-size: 22px;
+}
+
+ol {
+  font-size: 22px;
+}
+
+.column {
+  padding-bottom: 50px;
+}
+

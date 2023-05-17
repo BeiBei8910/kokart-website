@@ -1,0 +1,18 @@
+/* Styles Main section */
+main {
+  color: black;
+  margin-bottom: 100px;
+}
+
+p {
+  font-size: 22px;
+}
+
+/* Styles form section */
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+  
